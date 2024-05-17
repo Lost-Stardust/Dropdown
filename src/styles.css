@@ -45,3 +45,32 @@ h6 {
 #__next {
   isolation: isolate;
 }
+body {
+  padding: 1%;
+}
+.dropdown,
+.dropdown2 {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #c7c7c7;
+  height: 200px;
+  width: 200px;
+  transition: all 0.4s ease-out;
+}
+.dropdown > button,
+.dropdown2 > button {
+  flex: 1;
+  border: none;
+}
+.dropdown > button:hover {
+  background: #dfceff73;
+}
+.dropdown2 > button:hover {
+  background: #dfceff73;
+}
+.dropdown.active,
+.dropdown2.active {
+  opacity: 1;
+}
