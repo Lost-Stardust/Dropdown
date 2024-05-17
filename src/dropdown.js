@@ -6,5 +6,4 @@ const dropdown = (dp) => {
     dp.classList.add("active");
   }
 };
-export { dropdown };
 exports.dropdown = dropdown;
