@@ -7,3 +7,4 @@ const dropdown = (dp) => {
   }
 };
 export { dropdown };
+exports.dropdown = dropdown;
