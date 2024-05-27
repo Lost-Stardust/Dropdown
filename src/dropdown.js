@@ -1,4 +1,4 @@
-const dropdown = (dp) => {
+exports.dropdown = function (dp) {
   console.log(dp);
   if (dp.classList.contains("active")) {
     dp.classList.remove("active");
@@ -6,4 +6,4 @@ const dropdown = (dp) => {
     dp.classList.add("active");
   }
 };
-exports.dropdown = dropdown;
+// exports.dropdown = dropdown;
